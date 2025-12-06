@@ -1,18 +1,55 @@
 import React from "react";
+import Tilt from "react-tilt";
+import { motion } from "framer-motion";
 
-import { BallCanvas } from "./canvas";
+import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { skills } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+
+const SkillCard = ({ index, title, items }) => (
+  <Tilt className='xs:w-[250px] w-full'>
+    <motion.div
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+    >
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+      >
+        <h3 className='text-white text-[20px] font-bold text-center mb-4'>
+          {title}
+        </h3>
+        <div className='flex flex-col gap-2 text-center'>
+          {items.map((item) => (
+            <p key={item} className='text-secondary text-[16px]'>
+              {item}
+            </p>
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  </Tilt>
+);
 
 const Tech = () => {
   return (
-    <div className='flex flex-row flex-wrap justify-center gap-10'>
-      {technologies.map((technology) => (
-        <div className='w-28 h-28' key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-        </div>
-      ))}
-    </div>
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>My Skills</p>
+        <h2 className={styles.sectionHeadText}>Technologies.</h2>
+      </motion.div>
+
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
+        {skills.map((skill, index) => (
+          <SkillCard key={skill.title} index={index} {...skill} />
+        ))}
+      </div>
+    </>
   );
 };
 

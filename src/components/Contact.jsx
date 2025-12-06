@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { github } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -37,9 +38,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Rivaldo Nassif",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "rivaldonassif@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -72,8 +73,22 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Let’s build something together.</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <div className='mt-4 mb-8 flex flex-col gap-4 text-white'>
+          <p className='text-[18px]'>Email: rivaldonassif@gmail.com</p>
+          <p className='text-[18px]'>Location: Nairobi, Kenya</p>
+          <div className='flex gap-4'>
+            <a href='https://github.com/rivaldo56' target='_blank' rel='noreferrer' className='flex items-center gap-2'>
+              <img src={github} alt='github' className='w-8 h-8 object-contain' />
+              GitHub
+            </a>
+            <a href='https://www.linkedin.com/in/rivaldo-ouma/' target='_blank' rel='noreferrer' className='flex items-center gap-2'>
+              <span className='text-[18px] font-bold text-[#0077b5]'>LinkedIn</span>
+            </a>
+          </div>
+        </div>
 
         <form
           ref={formRef}

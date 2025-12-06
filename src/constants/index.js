@@ -15,14 +15,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+
   carrent,
   jobit,
   tripguide,
   threejs,
+  foodie,
+  luna_crm,
+  fiscal_dashboard,
+  lex_ai,
+  tuko,
+  analytics,
+  digital_oasis,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -59,68 +64,32 @@ const services = [
   },
 ];
 
-const technologies = [
+const skills = [
   {
-    name: "HTML 5",
-    icon: html,
+    title: "Languages",
+    items: ["JavaScript", "TypeScript", "Python", "HTML", "CSS"],
   },
   {
-    name: "CSS 3",
-    icon: css,
+    title: "Frameworks",
+    items: ["React", "Next.js", "Node.js", "FastAPI", "Flask"],
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    title: "Tools",
+    items: ["Git", "GitHub", "Firebase", "Supabase", "PostgreSQL", "MongoDB", "Docker"],
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    title: "Special Interests",
+    items: ["AI agents", "automation", "UI engineering", "product prototyping"],
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer",
+    company_name: "Freelance",
+    icon: logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +98,43 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Co-host & Producer",
+    company_name: "Tuko Sawa Podcast",
+    icon: tuko,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Produce and co-host a Gen Z – focused podcast centered on culture, creativity, self-growth, and tech.",
+      "Manage research, episode structuring, content strategy, and digital storytelling.",
+      "Built a small but growing community through consistent releases, engagement, and creative promos.",
+      "Leveraged analytics to guide content direction and growth strategy.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "AI & Data Enthusiast",
+    company_name: "10alytics hackathon",
+    icon: analytics,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Explored real-world datasets to build insights and solutions applying data analytics and machine learning approaches.",
+      "Strengthened collaborative problem-solving skills under intense time constraints.",
+      "Gained experience presenting data-backed recommendations for real impact.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Backhouse & Support Assistant",
+    company_name: "Digital Oasis",
+    icon: digital_oasis,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2025 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed daily communication workflows, including email organization, message triage, and timely responses.",
+      "Handled scheduling, reminders, calendar coordination, and logistics planning.",
+      "Conducted online research to support decision-making and personal projects.",
+      "Created simple digital systems for task tracking, file organization, and productivity.",
+      "Assisted with travel arrangements, bookings, and itinerary planning.",
+      "Delivered all tasks with confidentiality, reliability, and a strong sense of initiative.",
     ],
   },
 ];
@@ -172,94 +142,115 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Rivaldo was reliable, organized, and proactive. He managed my schedule and tasks smoothly and consistently made my workload lighter.",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    designation: "CEO",
+    company: "Digital Oasis",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "His ability to take an idea and turn it into a functional prototype is impressive. He thinks like both a technologist and a storyteller.",
+    name: "Chris Nganga",
+    designation: "Startup Co-Founder & Collaborator",
+    company: "Foodie",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Reliable, focused, and curious. Rivaldo approaches every project like a builder—always looking for how to improve the experience.",
+    name: "Chakin",
+    designation: "Mentor/instructor",
+    company: "PLP Academy",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Foodie",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A platform that connects independent chefs to food lovers looking for unique, affordable meals. Chefs create profiles, list dishes, attract customers, and manage orders — creating new earning opportunities while giving users access to diverse food options.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: foodie,
+    source_code_link: "https://github.com/rivaldo56/foodie-v2",
   },
   {
-    name: "Job IT",
+    name: "Luna CRM",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple CRM designed for small African businesses to manage leads, customers, communication, and follow-ups.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "firebase",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
       },
       {
         name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: luna_crm,
+    source_code_link: "https://github.com/rivaldo56/Luna-CRM",
+  },
+  {
+    name: "Fiscal Intelligence",
+    description:
+      "A dashboard that visualizes Kenya’s budget, spending patterns, and fiscal indicators to support transparency and civic awareness.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "plotly",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fiscal_dashboard,
+    source_code_link: "https://github.com/rivaldo56/Fiscal-Intelligence",
+  },
+  {
+    name: "LEX",
+    description:
+      "A basic AI-powered coding assistant that helps developers debug, generate boilerplate, and accelerate workflow.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vectordb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: lex_ai,
+    source_code_link: "https://github.com/rivaldo56/Lex_python_coding_assistant-",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, skills, experiences, testimonials, projects };

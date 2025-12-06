@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m a Kenyan software developer focused on building modern web apps, AI tools, and clean user experiences. I enjoy turning raw ideas into working prototypes — from CRM systems to AI assistants and intelligent dashboards.
+        <br className='block mb-4' />
+        I’m currently sharpening my skills in full-stack web development, Python automation, AI integration, and data-driven systems. I also explore how tech can solve real African problems across food, transport, and small business sectors.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
