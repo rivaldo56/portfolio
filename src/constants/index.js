@@ -24,6 +24,7 @@ import {
   luna_crm,
   fiscal_dashboard,
   lex_ai,
+  tuko_sawa,
   tuko,
   analytics,
   digital_oasis,
@@ -186,7 +187,7 @@ const projects = [
       },
     ],
     image: foodie,
-    source_code_link: "https://github.com/rivaldo56/foodie-v2",
+    source_code_link: "https://foodie-v2.vercel.app/",
   },
   {
     name: "Luna CRM",
@@ -207,7 +208,7 @@ const projects = [
       },
     ],
     image: luna_crm,
-    source_code_link: "https://github.com/rivaldo56/Luna-CRM",
+    source_code_link: "https://luna-crm.vercel.app/",
   },
   {
     name: "Fiscal Intelligence",
@@ -250,6 +251,27 @@ const projects = [
     ],
     image: lex_ai,
     source_code_link: "https://github.com/rivaldo56/Lex_python_coding_assistant-",
+  },
+  {
+    name: "Tuko Sawa Website",
+    description:
+      "The official website for the Tuko Sawa Podcast, built to centralize episodes, community engagement, and the brand's Gen-Z creative identity. Designed with a bold visual aesthetic, smooth transitions, and mobile-first responsiveness.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tuko_sawa,
+    source_code_link: "https://tukosawapod.vercel.app/",
   },
 ];
 

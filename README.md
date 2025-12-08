@@ -8,7 +8,7 @@ This is a 3D developer portfolio website built with React, Three.js, and Tailwin
 - **About Section:** Overview of skills and services.
 - **Experience Section:** Vertical timeline of work experience.
 - **Tech Stack:** Display of technologies used with floating 3D icons.
-- **Projects Section:** Showcase of projects with descriptions, tags, and links.
+- **Projects Section:** Showcase of projects with descriptions, tags, and links.README.md
 - **Contact Form:** Functional contact form using EmailJS.
 - **Responsive Design:** Fully responsive layout for all devices.
 - **Modern UI/UX:** Glassmorphism effects, smooth animations using Framer Motion.

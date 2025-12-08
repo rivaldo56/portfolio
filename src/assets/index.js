@@ -31,6 +31,7 @@ import foodie from "./foodie.png";
 import luna_crm from "./luna_crm.png";
 import fiscal_dashboard from "./fiscal_dashboard.png";
 import lex_ai from "./lex_ai.png";
+import tuko_sawa from "./tuko_sawa.png";
 
 import tuko from "./company/tuko.png";
 import analytics from "./company/analytics.png";
@@ -69,4 +70,5 @@ export {
   luna_crm,
   fiscal_dashboard,
   lex_ai,
+  tuko_sawa,
 };
