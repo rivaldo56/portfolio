@@ -25,6 +25,7 @@ import {
   fiscal_dashboard,
   lex_ai,
   tuko_sawa,
+  cinnamon_lane,
   tuko,
   analytics,
   digital_oasis,
@@ -169,6 +170,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Cinnamon Lane",
+    description:
+      "A warm, organic, and visually rich website crafted for Cinnamon Lane, a bakery specializing in handmade, all-natural pastries. The site blends artisan aesthetics with clean modern UI, giving customers an inviting digital experience that mirrors the brand’s cozy, homemade charm.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cinnamon_lane,
+    source_code_link: "https://cinnamon-lane.vercel.app/",
+  },
+  {
+    name: "Tuko Sawa Website",
+    description:
+      "The official website for the Tuko Sawa Podcast, built to centralize episodes, community engagement, and the brand's Gen-Z creative identity. Designed with a bold visual aesthetic, smooth transitions, and mobile-first responsiveness.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framermotion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tuko_sawa,
+    source_code_link: "https://tukosawapod.vercel.app/",
+  },
+  {
     name: "Foodie",
     description:
       "A platform that connects independent chefs to food lovers looking for unique, affordable meals. Chefs create profiles, list dishes, attract customers, and manage orders — creating new earning opportunities while giving users access to diverse food options.",
@@ -251,27 +294,6 @@ const projects = [
     ],
     image: lex_ai,
     source_code_link: "https://github.com/rivaldo56/Lex_python_coding_assistant-",
-  },
-  {
-    name: "Tuko Sawa Website",
-    description:
-      "The official website for the Tuko Sawa Podcast, built to centralize episodes, community engagement, and the brand's Gen-Z creative identity. Designed with a bold visual aesthetic, smooth transitions, and mobile-first responsiveness.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "next.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "framermotion",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tuko_sawa,
-    source_code_link: "https://tukosawapod.vercel.app/",
   },
 ];
 
