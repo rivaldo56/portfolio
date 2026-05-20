@@ -26,6 +26,7 @@ import {
   lex_ai,
   tuko_sawa,
   cinnamon_lane,
+  imarisha,
   tuko,
   analytics,
   digital_oasis,
@@ -169,6 +170,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Imarisha Jamii Centre",
+    description:
+      "A premium, high-conversion website for Imarisha Jamii Centre, an adult education institution based in Umoja, Nairobi. Built with a focus on accessibility, professional branding, and an optimized admissions funnel. Imarisha Jamii Centre provides a second chance for adult learners through flexible KCSE completion programs, bridging courses, and professional skills training.",
+    tags: [
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imarisha,
+    source_code_link: "https://www.imarishajamiicentre.co.ke/",
+  },
   {
     name: "Cinnamon Lane",
     description:

@@ -33,6 +33,7 @@ import fiscal_dashboard from "./fiscal_dashboard.png";
 import lex_ai from "./lex_ai.png";
 import tuko_sawa from "./tuko_sawa.png";
 import cinnamon_lane from "./cinnamon_lane.png";
+import imarisha from "./imarisha.png";
 
 import tuko from "./company/tuko.png";
 import analytics from "./company/analytics.png";
@@ -73,4 +74,5 @@ export {
   lex_ai,
   tuko_sawa,
   cinnamon_lane,
+  imarisha,
 };
